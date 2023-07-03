@@ -1,0 +1,50 @@
+[
+    {
+        "question": "1: our_list[:]",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "[]",
+                "correct": false,
+                "feedback": "Try again. See, omitting values."
+            }
+        ]
+    },
+    {
+        "question": "2: our_list[:20]",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Error. Index 20 our of range.",
+                "correct": false,
+                "feedback": "See correct answer."
+            },
+            {
+                "answer": "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]",
+                "correct": true,
+                "feedback": "Correct. 2nd index > len(list) -> len(list)."
+            }
+        ]
+    },
+    {
+        "question": "3: our_list[:len(our_list)]",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "[1, 2, 3, 4, 5, 6, 7, 8, 9]",
+                "correct": false,
+                "feedback": "See correct answer."
+            },
+            {
+                "answer": "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]",
+                "correct": true,
+                "feedback": "Correct. Indices range from 0 to len(seq)-1."
+            }
+        ]
+    }
+]

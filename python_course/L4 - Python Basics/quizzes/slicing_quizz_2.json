@@ -1,0 +1,50 @@
+[
+    {
+        "question": "4: our_list[4:4]",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "5",
+                "correct": false,
+                "feedback": "Unfortunately, wrong."
+            },
+            {
+                "answer": "[]",
+                "correct": true,
+                "feedback": "i>=j --> empty list."
+            }
+        ]
+    },
+    {
+        "question": "5: our_list[:3]",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "[1, 2, 3]",
+                "correct": true,
+                "feedback": "Correct answer."
+            },
+            {
+                "answer": "[1, 2, 3, 4]",
+                "correct": false,
+                "feedback": "[:3] translates to [list[0], list[1], list[2]]."
+            }
+        ]
+    },
+    {
+        "question": "6: our_list[8:9]",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "[9]",
+                "correct": true,
+                "feedback": "Correct. 9-th Element with index 8 is selected."
+            },
+            {
+                "answer": "[8]",
+                "correct": false,
+                "feedback": "See correct answer"
+            }
+        ]
+    }
+]

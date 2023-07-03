@@ -1,0 +1,49 @@
+The Stock Profits of the Portfolio: 
+Symbol    Profit      Single Volume    All Volumes
+--------  --------  ---------------  -------------
+LPL       False              -7.22        -1342.92
+PLUG      True                1.31          112.66
+ABTX      True                3.22          241.5
+ED        True               29.22          292.2
+TSM       True               37             185
+TM        True               58.71         7749.72
+GOOGL     True              868.121       86812.1
+
+The ETFs Profits of the Portfolio: 
+Symbol    Profit      Single Volume    All Volumes
+--------  --------  ---------------  -------------
+ICLN      False              -13.89       -3486.39
+AAAU      False                0              0
+
+The Top 2 Stock assets for single Volume: 
+Symbol    Profit      Single Volume    All Volumes
+--------  --------  ---------------  -------------
+GOOGL     True              868.121       86812.1
+TM        True               58.71         7749.72
+
+The Flop 2  Stock assets for single Volume: 
+Symbol    Profit      Single Volume    All Volumes
+--------  --------  ---------------  -------------
+LPL       False               -7.22       -1342.92
+PLUG      True                 1.31         112.66
+
+The Top 2 ETFs assets for single Volume: 
+Symbol    Profit      Single Volume    All Volumes
+--------  --------  ---------------  -------------
+AAAU      False                0              0
+ICLN      False              -13.89       -3486.39
+
+The Flop 2  ETFs assets for single Volume: 
+Symbol    Profit      Single Volume    All Volumes
+--------  --------  ---------------  -------------
+ICLN      False              -13.89       -3486.39
+AAAU      False                0              0
+
+The Top 10 Stock assets in the last Year: 
+Symbol    Profit    Single Volume    All Volumes
+--------  --------  ---------------  -------------
+
+The Top 10 ETFs assets in the last Year: 
+Symbol    Profit    Single Volume    All Volumes
+--------  --------  ---------------  -------------
+

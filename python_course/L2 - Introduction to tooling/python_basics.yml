@@ -1,0 +1,15 @@
+name: basics310
+
+channels:
+  - defaults
+  - conda-forge
+
+dependencies:
+  - python>=3.10
+  - nodejs>=16
+  - jupyter
+  - ipykernel
+  - jupyterlab
+  - jupyterlab-git
+  - pip:
+    - jupyterquiz

@@ -1,0 +1,81 @@
+[
+    {
+        "question": "7: our_list[-3:-2]",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "[8]",
+                "correct": true,
+                "feedback": "-3-th element selected."
+            },
+            {
+                "answer": "[7, 8]",
+                "correct": false,
+                "feedback": ""
+            },
+            {
+                "answer": "[8, 9]",
+                "correct": false,
+                "feedback": ""
+            },
+            {
+                "answer": "[9]",
+                "correct": false,
+                "feedback": ""
+            }
+        ]
+    },
+    {
+        "question": "8: our_list[-2:]",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "[9, 10]",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "[9]",
+                "correct": false,
+                "feedback": "Not correct."
+            },
+            {
+                "answer": "[8, 9, 10]",
+                "correct": false,
+                "feedback": "Not correct."
+            }
+        ]
+    },
+    {
+        "question": "9: our_list[1:-1]",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "[2, 3, 4, 5, 6, 7, 8, 9]",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "[2, 3, 4, 5, 6, 7, 8, 9, 10]",
+                "correct": false,
+                "feedback": "Not correct. Remember: last slicing index is not included."
+            }
+        ]
+    },
+    {
+        "question": "10: our_list[-3:1]",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "[]",
+                "correct": true,
+                "feedback": "Correct. i=-3 is equal to i=7 -> i>=j -> []."
+            },
+            {
+                "answer": "[8, 9, 10]",
+                "correct": false,
+                "feedback": ""
+            }
+        ]
+    }
+]

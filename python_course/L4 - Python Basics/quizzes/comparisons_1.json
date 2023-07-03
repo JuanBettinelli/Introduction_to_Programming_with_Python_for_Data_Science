@@ -1,0 +1,102 @@
+[
+    {
+        "question": "What's the outcome of `True and False or True`?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "True",
+                "correct": true,
+                "feedback": "Correct. `or` has highest prio."
+            },
+            {
+                "answer": "False",
+                "correct": false,
+                "feedback": ""
+            }
+        ]
+    },
+    {
+        "question": "Result of `False or 'Let's go'`?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "False",
+                "correct": false,
+                "feedback": ""
+            },
+            {
+                "answer": "True",
+                "correct": false,
+                "feedback": ""
+            },
+            {
+                "answer": "'Let's go'",
+                "correct": true,
+                "feedback": ""
+            }
+        ]
+    },
+    {
+        "question": "Result of `True or 'Hi'`?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "True",
+                "correct": true,
+                "feedback": ""
+            },
+            {
+                "answer": "'Hi'",
+                "correct": false,
+                "feedback": ""
+            }
+        ]
+    },
+    {
+        "question": "Result of `list() and 'Hi'`?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "True",
+                "correct": false,
+                "feedback": ""
+            },
+            {
+                "answer": "False",
+                "correct": false,
+                "feedback": ""
+            },
+            {
+                "answer": "'Hi'",
+                "correct": false,
+                "feedback": ""
+            },
+            {
+                "answer": "[]",
+                "correct": true,
+                "feedback": "[] is considered false."
+            }
+        ]
+    },
+    {
+        "question": "Result of `True and {}`?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "False",
+                "correct": false,
+                "feedback": ""
+            },
+            {
+                "answer": "True",
+                "correct": false,
+                "feedback": ""
+            },
+            {
+                "answer": "{}",
+                "correct": true,
+                "feedback": "Even if the second argument is considered false, it is still returned."
+            }
+        ]
+    }
+]

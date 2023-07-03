@@ -1,0 +1,134 @@
+[
+    {
+        "question": "Result of `[True == 1, False == 0]`?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "[1, 1]",
+                "correct": true,
+                "feedback": ""
+            },
+            {
+                "answer": "[0, 0]",
+                "correct": false,
+                "feedback": ""
+            },
+            {
+                "answer": "[True, True]",
+                "correct": true,
+                "feedback": ""
+            },
+            {
+                "answer": "[True, 1]",
+                "correct": true,
+                "feedback": ""
+            }
+        ]
+    },
+    {
+        "question": "`[1, 1.0] == [True, True] == [1.0, True]`",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "False",
+                "correct": false,
+                "feedback": ""
+            },
+            {
+                "answer": "True",
+                "correct": true,
+                "feedback": ""
+            }
+        ]
+    },
+    {
+        "question": "`[list() == [], list() is []]`",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "[True, False]",
+                "correct": true,
+                "feedback": ""
+            },
+            {
+                "answer": "[True, True]",
+                "correct": false,
+                "feedback": ""
+            },
+            {
+                "answer": "False",
+                "correct": false,
+                "feedback": ""
+            }
+        ]
+    },
+    {
+        "question": "False == None",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "True",
+                "correct": false,
+                "feedback": ""
+            },
+            {
+                "answer": "False",
+                "correct": true,
+                "feedback": ""
+            }
+        ]
+    },
+    {
+        "question": "0 == None",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "False",
+                "correct": true,
+                "feedback": ""
+            },
+            {
+                "answer": "True",
+                "correct": false,
+                "feedback": ""
+            }
+        ]
+    },
+    {
+        "question": "`1 < 5 or 2 > True`",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "False",
+                "correct": false,
+                "feedback": ""
+            },
+            {
+                "answer": "True",
+                "correct": true,
+                "feedback": ""
+            }
+        ]
+    },
+    {
+        "question": "`True - True >= False and 'Hi'`",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "False",
+                "correct": false,
+                "feedback": ""
+            },
+            {
+                "answer": "True",
+                "correct": false,
+                "feedback": ""
+            },
+            {
+                "answer": "Hi",
+                "correct": true,
+                "feedback": ""
+            }
+        ]
+    }
+]

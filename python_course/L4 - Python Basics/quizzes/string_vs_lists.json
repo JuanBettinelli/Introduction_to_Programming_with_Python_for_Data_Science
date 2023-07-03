@@ -1,0 +1,18 @@
+[
+    {
+        "question": "Did you find difference between indexing and slicing of strings and lists? E.g. in seq[0] vs seq[0:1] returns?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "No",
+                "correct": false,
+                "feedback": "You didn't look close enough."
+            },
+            {
+                "answer": "Yes",
+                "correct": true,
+                "feedback": "Wow, you have an eye for details. Congratz!"
+            }
+        ]
+    }
+]

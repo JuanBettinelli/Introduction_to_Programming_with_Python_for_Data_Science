@@ -1,0 +1,18 @@
+[
+    {
+        "question": "What does '1,,2,3'.split() result in?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Error, we need a seperator.",
+                "correct": false,
+                "feedback": "We had a look at the doc-string earlier :)"
+            },
+            {
+                "answer": "['1,,2,3']",
+                "correct": true,
+                "feedback": "Correct, default is to split along any number of whitespaces."
+            }
+        ]
+    }
+]

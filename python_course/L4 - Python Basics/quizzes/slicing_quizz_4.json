@@ -1,0 +1,55 @@
+[
+    {
+        "question": "11: our_list[5::2]",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "[6, 8, 10]",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "[5, 7, 9]",
+                "correct": false,
+                "feedback": "Not correct."
+            }
+        ]
+    },
+    {
+        "question": "12: our_list[::5]",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "[1, 6]",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "[4, 9]",
+                "correct": false,
+                "feedback": "Not correct."
+            }
+        ]
+    },
+    {
+        "question": "13: our_list[::15]",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "[1]",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "[1, 10]",
+                "correct": false,
+                "feedback": "Not correct."
+            },
+            {
+                "answer": "Error. Index out of range.",
+                "correct": false,
+                "feedback": "Not correct."
+            }
+        ]
+    }
+]
